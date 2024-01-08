@@ -6,7 +6,7 @@
 
 /* header 1sts part styling */
 .banner {
-    background: linear-gradient(to bottom,black,transparent),url('../resources/Banner\ Image.png');
+    background: linear-gradient(to bottom, black, transparent), url('../resources/Banner\ Image.png');
     width: 1320px;
     height: 600px;
     margin: 50px auto 120px;
@@ -19,7 +19,7 @@
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
-    padding:  177px 530px 0px;
+    padding: 177px 530px 0px;
 }
 
 .banner-title {
@@ -31,4 +31,94 @@
     line-height: 95px;
     /* 131.944% */
     padding: 50px 344px 177px;
+}
+
+/* header ad styling */
+.header-ad {
+    align-items: center;
+}
+
+.ad-sale-range {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.ad-description {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.ad-info {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.ad-pic {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+/* main styling */
+/* first section styling */
+
+.first-sec {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    background: linear-gradient(to right, rgb(21, 21, 21), transparent), url('../resources/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    margin-bottom: 120px;
+    border-radius: 10px;
+}
+
+.welcome {
+    padding: 126px 0px 142px 126px;
+}
+
+.welcome-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.welcome-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-bottom: 48px;
+}
+
+.welcome-join {
+    color: #FFF;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 32px;
+}
+
+.welcome-pic {
+    margin: 68px 138px 68px 40px;
+    width: 319.83px;
+    height: 464.662px;
 }
