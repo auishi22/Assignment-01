@@ -1,0 +1,34 @@
+/* shared styling */
+* {
+    margin: auto;
+    max-width: 1320px;
+}
+
+/* header 1sts part styling */
+.banner {
+    background: linear-gradient(to bottom,black,transparent),url('../resources/Banner\ Image.png');
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto 120px;
+    border-radius: 16px;
+}
+
+.banner-greeting {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding:  177px 530px 0px;
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+    padding: 50px 344px 177px;
+}
