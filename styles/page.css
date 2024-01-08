@@ -190,25 +190,102 @@
     line-height: 32px;
     margin-right: 70px;
 }
-.offer-deal-pic{
+
+.offer-deal-pic {
     border-radius: 463px;
-border: 15px solid #F00;
-padding: 49px;
+    border: 15px solid #F00;
+    padding: 49px;
 }
-.offer-deal-date{
+
+.offer-deal-date {
     margin-left: 118px;
 }
-.new-year{
+
+.new-year {
     color: #F00;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin:112px 150px 16px 0px;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 112px 150px 16px 0px;
 }
-.new-year-pic{
+
+.new-year-pic {
     width: 140px;
-height: 140px;
-margin-top: 43px;
+    height: 140px;
+    margin-top: 43px;
 }
+
+/* fourth section styling */
+.fourth-section {
+    background-image: url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+.sale {
+    text-align: center;
+}
+
+.sale-intro {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.sale-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 38px;
+}
+
+.sale-pics {
+    display: flex;
+}
+
+.discount {
+    background-image: url('../resources/Rectangle\ 1.png');
+    background-position: top;
+}
+
+/* fifth section styling */
+.fifth-sec {
+    margin-top: 120px;
+}
+
+.page-portfolio-intro {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.page-portfolio-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.portfolio-pics{
+    margin-top: 48px;
+    margin-bottom: 120px;
+    border-radius: 16px;
+}
+
