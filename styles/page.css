@@ -122,3 +122,35 @@
     width: 319.83px;
     height: 464.662px;
 }
+
+/* venue section styling */
+.venue {
+    width: 1320px;
+    height: 482px;
+    background-image: linear-gradient(to bottom,#fcd4d4, #fff);
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 120px;
+
+}
+
+.venue-details {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    padding: 100px 386px 48px;
+}
+.join-btn{
+padding: 16px 32px;
+border: 0px;
+border-radius: 8px;
+background: #F00;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+}
