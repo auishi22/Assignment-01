@@ -251,12 +251,20 @@
 
 .sale-pics {
     display: flex;
+
 }
 
 .discount {
-    background-image: url('../resources/Rectangle\ 1.png');
-    background-position-y: top;
+    position: relative;
+    bottom: 114px;
+    left: 24px;
 }
+.img1{
+    position: absolute;
+    top: 70px;
+    right: 250px;
+}
+
 
 /* fifth section styling */
 .fifth-sec {
@@ -284,9 +292,8 @@
     margin-bottom: 22px;
 }
 
-.portfolio-pics {
+.portfolio-pics img {
     margin-top: 48px;
-    margin-bottom: 120px;
     border-radius: 16px;
 }
 
@@ -298,6 +305,7 @@
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
     margin-bottom: 140px;
+    margin-top: 120px;
 }
 
 .subscriber-icon {
