@@ -255,7 +255,7 @@
 
 .discount {
     background-image: url('../resources/Rectangle\ 1.png');
-    background-position: top;
+    background-position-y: top;
 }
 
 /* fifth section styling */
@@ -283,9 +283,71 @@
     text-transform: capitalize;
     margin-bottom: 22px;
 }
-.portfolio-pics{
+
+.portfolio-pics {
     margin-top: 48px;
     margin-bottom: 120px;
     border-radius: 16px;
 }
 
+/* last section styling */
+.last-section {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.subscriber-icon {
+    padding: 80px 0px 40px;
+}
+
+.subscriber-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.subscriber-btn{
+    margin: 48px;
+    margin-right:200px;
+}
+.subscriber-btn .email input{
+    width: 648px;
+    height: 72px;
+position: relative;
+background: #FFF;
+border: 0px;
+text-align: center;
+color: rgba(7, 2, 17, 0.30);
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.subs-btn{
+    width: 210px;
+height: 72px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+border: 0px;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+margin-left: 0px;
+position: absolute;
+}
