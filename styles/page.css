@@ -127,7 +127,7 @@
 .venue {
     width: 1320px;
     height: 482px;
-    background-image: linear-gradient(to bottom,#fcd4d4, #fff);
+    background-image: linear-gradient(to bottom, #fcd4d4, #fff);
     text-align: center;
     border-radius: 12px;
     margin-bottom: 120px;
@@ -142,15 +142,73 @@
     line-height: 56px;
     padding: 100px 386px 48px;
 }
-.join-btn{
-padding: 16px 32px;
-border: 0px;
-border-radius: 8px;
-background: #F00;
-color: #FFF;
-text-align: center;
+
+.join-btn {
+    padding: 16px 32px;
+    border: 0px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* third section styling */
+.third-sec {
+    height: 482px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+
+.offer-intro {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 104px 256px 16px 0px;
+}
+
+.offer-declaration {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-right: 135px;
+    margin-bottom: 22px;
+}
+
+.description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-right: 70px;
+}
+.offer-deal-pic{
+    border-radius: 463px;
+border: 15px solid #F00;
+padding: 49px;
+}
+.offer-deal-date{
+    margin-left: 118px;
+}
+.new-year{
+    color: #F00;
 font-family: Inter;
-font-size: 20px;
+font-size: 48px;
+font-style: normal;
 font-weight: 700;
-text-transform: uppercase;
+line-height: normal;
+margin:112px 150px 16px 0px;
+}
+.new-year-pic{
+    width: 140px;
+height: 140px;
+margin-top: 43px;
 }
