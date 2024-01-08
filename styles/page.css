@@ -165,7 +165,8 @@
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    margin: 104px 256px 16px 0px;
+    margin: 104px 0px 16px 0px;
+    
 }
 
 .offer-declaration {
@@ -174,7 +175,7 @@
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
-    margin-right: 135px;
+    margin-right: 50px;
     margin-bottom: 22px;
 }
 
