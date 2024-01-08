@@ -280,15 +280,12 @@
     margin-bottom: 22px;
 }
 .portfolio-pics{
-    max-width: 1600px;
     margin-top: 48px;
 }
 .portfolio-pics img {
-    width: 400px;
-    margin: 18.71px;
     border-radius: 16px;
-    /* width: calc(30% - 20px);
-    margin: 8px; */
+    width: calc(30% - 20px);
+    margin: 8px;
 }
 
 /* last section styling */
