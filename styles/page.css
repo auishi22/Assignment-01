@@ -282,6 +282,11 @@
 .portfolio-pics{
     margin-top: 48px;
 }
+.portfolio-pics img:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    zoom: 200%;
+    transform: scale(1.15);
+}
 .portfolio-pics img {
     border-radius: 16px;
     width: calc(30% - 20px);
